@@ -4,7 +4,7 @@ $darkGreen: #006400;
 $darkGrey: #a9a9a9;
 $ghostWhite: #f8f8ff;
 $lightGrey: #d3d3d3;
-$green: #008000
+$green: #008000;
 
 // Mixins
 @mixin transition($property) {transition: $property .25s;}
@@ -226,7 +226,7 @@ footer {
   padding: 2em 0;
   width: 100%;
   text-align: center;
-  background: $lightGrey;
+  background: $darkGreen;
 }
 footer .nav-ul {justify-content: center;margin-bottom: 1em;}
 footer li:not(:first-child) {margin-left: .75em;}
